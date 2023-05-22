@@ -1,0 +1,12 @@
+TD1
+To Log into the linux box
+  In terminal:
+      ssh 10.50.40.22 -X
+      [enter the password, "student/root" jcacislame69]
+  "Boom I'm in"
+      terminator [need the "-X", -X allows for GUI, allows for other GUI applications, ssh only allows for terminal]
+TD1 Lecture Notes:
+  
+   
+    
+    
