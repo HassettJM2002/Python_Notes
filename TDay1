@@ -11,8 +11,141 @@ TD1 Lecture Notes:
     Human readable, intuitive, interpreter language, does not create executable
     "To enter into a python terminal to test code, In terminal type"
       python3
-     a
-  
+  3. setting up text editor
+  	syntax enable
+  	set tabstop=4
+  	set shifftwidth=4
+  	set expandtab
+  	set number
+  	filetype indent on
+  	set autoindent
+   "to save vim file, :wq!"
    
+   Two ways to run python script
+   1) [python3 deck.py]
+   2) [./deck.py (needs to be executable, chmod +x deck.py, and if the header is correct #!..)]
+   
+   Best place to find out new things about python "docs.python.org, read appropriate ver."
+     ---------------------------------------------------------------------------------------- 
+   Built in Types
+   -bool,int,float,str,tuple,list
+   
+   bool -> true false
+   int -> whole number
+   float -> real not full number
+   str -> letter, or multiple strung together
+   
+   Command to check the type of data -> type('data')
+    ----------------------------------------------------------------------------------------  
+   Mutability: ability for an object to change
+   	some things are mutable, somethings are not
+   
+   Way to check mutability -> id(a) = 4, id(b) = 5, a = a + b, a is immutable, new a was redone
+   
+   id(a) -> 109..
+   a = a + b, id(b) -> 108..
+  ---------------------------------------------------------------------------------------- 
+   Type casting, output a different type of data for a variable
+   c = 5
+   d = str(5)
+   type(d) = str
+    ---------------------------------------------------------------------------------------- 
+   List and tuples, can hold multiple items with varying types
+   !! Tuple is immutable
+   !! List is mutable
+----------------------------------------------------------------------------------------------- 
+   create a list  
+	a = [1,2,3,4,5] 	
+   index notation, position -1 
+	for 1, a[0]
+   to find the last value in a list
+   	a[-1]
+   to replace an item in the list
+   	a[0] = 6
+   	a = [6, 2, 3, 4]
+   	mutable stays the same in id space, this is what happens to lists
+   to append to a list, method is used for it, !!Methods are preceded by 'variable'.'word'
+   	a.append(7)
+   	a = [6, 2, 3, 4]
+   to delete from a list
+   	a.del[-1]
+   	a = [6, 2, 3, 4]
+-----------------------------------------------------------------------------------------------
+	Tuples, created in parenthesis
+		t=(1,2,3,4)
+		tuples are immutable, is faster for resources
+		essentially makes it immutable
+-----------------------------------------------------------------------------------------------
+	Mathematical Operations
+	+,-,*,/
+	Integer division "//" [13 // 5 -> whole number]
+	modulus % "gives the remainder, gives multiples of a number if module = 0"
+	exponent ** ""
+------------------------------------------------------------------------------------------------
+	Short handing to some math 
+	a = a + 3 (eq.) a += 3
+------------------------------------------------------------------------------------------------
+	String manipulation
+	.format is a powerful .method
+	'Hello. My name is {}.'.format('arg,arg,...') "format is the method, {} is like a 								variable, needs another {} for each 								arg"
+	
+	f'Hello, my name is {a} {b}.' "F strings infront of the string, same thing, put
+					variables in the {}"
+					
+_______________________________________________________________________________________________
+	Split and joining
+	.method to split is "string".split() "creates list, default spaces"
+	
+	Example 1)
+		'hello world'.split()
+		-->
+		['hello','world']
+	
+	Example 2)
+		'user:passwd'.split(':')
+		-->
+		['user','passwd']
+	
+	To seperate a string by the individual characters, type cast it to a list
+	
+	Example 3)
+		s = 'hello'
+		x = list(s)
+		-->
+		['h','e','l', 'l', 'o']
+		
+	To change something in the list
+		x[0] = 'j'
+		-->
+		['j','e','l', 'l', 'o']
+	To join the characters back together
+		''.join(x)	"Whatever is in the '', will be used to delinate"
+		-->
+		'jello'
+_______________________________________________________________________________________________
+	print(), the function prints to the screen
+		a = 'hello'; b = 'world'
+		print(a,b)
+		-->
+		hello world
+	
+		mi = 5
+		print('I ran {} miles.'.format(mi))
+	
+___________________________________________________________
+	Getting user input
+		input('string to display to screen ')
+	
+ACTIVITY!!
+	email = name@domain.com
+	seperate them into name, domain, com
+	
+	
+	1|email = 'name@domain.com'
+	2|a = email.split('@') "splits it so it creates list ['name', 'domain.com']"
+	3|b = '.'.join(a) "joins that list, and deliniates with . and outputs ['name.domain.com']"
+	4|c = b.split('.') "then splits the it on the ".s" and "
+	5|print(c) ""
+		
     
     
