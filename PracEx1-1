@@ -6,3 +6,7 @@ Given a sequence, swap the first and last element
 strings are immutable, must create a copy to avoid those problems
 
 a = [1,2,3,4,5]
+tmp = a[0], "variable takes on the value at index pos 0 which is element 1"
+a[0] = a[-1] "index pos 0 is switched with last value"
+a[-1] = tmp "last index pos is switched with the first value which was assigned to tmp"
+a = [5, 2, 3, 4, 1]
