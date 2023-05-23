@@ -179,7 +179,15 @@ range function "Creator of the index notator"
 	
 Example of range function with for loop
 	my_list = [5, 10,15,20,25]
-	"use len() function to get the length of the list, can be used"
+	"use len() function to get the length of the list, can be used if you dont know the length of the list"
+
+Example of second way
+	use a counter
+	
+	counter = 0
+	for loop
+		function
+		counter += 1
 
 while loops
 -----------
