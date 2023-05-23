@@ -181,7 +181,7 @@ Example
 	while n < 10:
 		print(n)
 		n += 1
-	"will return, 1,2,3.."
+	"will return, 1,2,3..9, will not print 10 because the conditon had it less than 10, therefore the condition will not be true"
 
 
 		
