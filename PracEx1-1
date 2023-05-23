@@ -1,1 +1,8 @@
+strings are considered sequences
+consider if the sequence is mutable, tuples for example will not be
 
+
+Given a sequence, swap the first and last element
+strings are immutable, must create a copy to avoid those problems
+
+a = [1,2,3,4,5]
