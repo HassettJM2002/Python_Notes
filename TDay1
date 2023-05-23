@@ -146,6 +146,11 @@ ACTIVITY!!
 	3|b = '.'.join(a) "joins that list, and deliniates with . and outputs ['name.domain.com']"
 	4|c = b.split('.') "then splits the it on the ".s" and "
 	5|print(c) ""
+______________________________________________________________________________________________________________________________________________
+Branching Statements
+if, elif, else
+
+
 		
     
     
