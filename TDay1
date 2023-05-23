@@ -199,6 +199,23 @@ Example
 		print(n)
 		n += 1
 	"will return, 1,2,3..9, will not print 10 because the conditon had it less than 10, therefore the condition will not be true"
+	
+in a function
+	return will end the funciton regardless of how nested it is. 
+
+Example	
+myList = list(range(0,50))
+	myList[2]=element pos 3
+	myList[-2]=2nd to last element
+	last 10
+	mylist[-10:0], last 10 till the end
+Example 2 "String Example"
+	myStr="string"
+	"reverse the list"
+	myStr[::-1]
+	"get list from backwards to certain one"
+	""
+
 
 
 		
