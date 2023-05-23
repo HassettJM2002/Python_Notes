@@ -10,3 +10,14 @@ tmp = a[0], "variable takes on the value at index pos 0 which is element 1"
 a[0] = a[-1] "index pos 0 is switched with last value"
 a[-1] = tmp "last index pos is switched with the first value which was assigned to tmp"
 a = [5, 2, 3, 4, 1]
+
+Faster way to swap
+a[0], a[-1] = a[-1], a[0]
+
+binary
+a = 42
+bin(a) -> 0b101010
+format(a,'#b') -> 0b101010
+format(a,'b') -> 101010
+0b -> notifys binary literal 
+0x -> notifys hexadecimal
