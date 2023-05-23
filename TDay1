@@ -172,6 +172,15 @@ Example of a for loop and an interable list, this code will print each value in 
 	for item in my_list: "<variable> is just variable, can be anything, "
 		print(item)
 
+range function "Creator of the index notator"
+-------------- 
+	range(a,b,c) a = start, b = step, c = step
+	list(range(0,10,1)) creates list "[0,1,2,3..9]", creates list, good for "for loops", must have same indexs
+	
+Example of range function with for loop
+	my_list = [5, 10,15,20,25]
+	"use len() function to get the length of the list, can be used"
+
 while loops
 -----------
 Ways to break a while loop, condition is no longer true or a break statement
