@@ -27,3 +27,51 @@ format(a,<type>) the type can be specified, for example, b will output the numbe
                   
 
 inverted = 255 - original
+
+#!/usr/bin/env python3
+
+'''list1 = list(range(0,10,1))'''
+list1=['100','200','250']`
+print(list1)
+for item in list1:
+    print(list1[item])
+    list1[item] = 255 - list1[item]     
+    print(list1[item])
+print(list1)
+
+**2nd iteration
+
+print(l)
+    print(l[0])
+    print(type(l[0]))
+    counter=0
+    for item in l:
+        print(l[counter])
+        strl=(str(255 - int(l[counter])))
+        l[counter] = strl
+        counter += 1
+    print(l)
+    return none
+    
+    numofelems = len(l)
+    indexpos = list(range(0,numofelems,1)
+    newlist=[]
+    for item in indexpos:
+        invertval = str(255 - int(l[indexpos]))
+        newlist.append(invertval)
+        return newlist
+   
+   
+ ormat(ord(myChar),'0>8b'
+
+charlist=list(format(ord(char),'0>8b'))
+for item in cover:
+  list(bin(item))
+
+numofelems = len(l)
+    indexpos = list(range(0,top,1)
+    newlist=[]
+    for item in indexpos:
+        invertval = str(255 - int(l[indexpos]))
+        newlist.append(invertval)
+        return newlist
