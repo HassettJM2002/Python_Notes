@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 def guess_number(n):
-    condition = True
-    while True:
-        if n == 23:
-            print('WIN')
-        elif n > 23:
-            print('your guess is too high')
-        elif n < 23:
-            print('your guess it too low')
+    while True: 
+        user = int(input("Enter number: "))
+        if user > n:
+            print('Too High')
+        elif user < n:
+            print('Too Low')
+        else
+            print('you win')
             return -->> will exit immedialtey from the function
         break
 guess_number(23)
