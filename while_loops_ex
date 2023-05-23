@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+def guess_number(n):
+    condition = True
+    while True:
+        if n == 23:
+            print('WIN')
+        elif n > 23:
+            print('your guess is too high')
+        elif n < 23:
+            print('your guess it too low')
+        break
+guess_number(23)
