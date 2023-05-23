@@ -1,0 +1,31 @@
+updated
+#!/usr/bin/env python3
+usernum = input('Enter a number ')
+divisby5 = int(usernum) % 5
+divisby3 = int(usernum) % 3
+
+boolean = divisby5 + divisby3
+
+if boolean == 0:
+    print('fizzbuzz')
+if boolean == 1:
+    if divisby3 == 1:
+    print('fizz')
+    elif divisby5 == 1:
+    print('buzz')
+else:
+    print(usernum)
+    
+old
+#!/usr/bin/env python3
+usernum = input('Enter a number ')
+divisby5 = int(usernum) % 5
+divisby3 = int(usernum) % 3
+if (divisby5 == 0) and (divisby3 == 0):
+    print('fizzbuzz')
+elif (divisby3 == 0) and (divisby5 != 0):
+    print('fizz')
+elif (divisby3 != 0) and (divisby5 == 0):
+    print('buzz')
+else:
+    print(usernum)
