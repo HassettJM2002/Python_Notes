@@ -150,6 +150,18 @@ ________________________________________________________________________________
 Branching Statements
 if, elif, else
 if "statment":
+______________
+!!Functions !!
+______________
+to define a function
+	def "function name"(<a>,<b>...)": "must have parenthesis"
+example of a function
+	def multiply(a,b):
+		pass "just a place holder"
+		return <a> * <b> "returns the value of the function a*b"
+	print(multiply(5,9)) "returns 5*9 which is 45"
+	
+
 
 
 
