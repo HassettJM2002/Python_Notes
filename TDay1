@@ -165,11 +165,23 @@ ___________
 ___________
 for Python3, the loops are for and while, anything with multiple values are iterable, like a list or a tuple
 
+for loops
+---------
 Example of a for loop and an interable list, this code will print each value in the list on different lines
 	my_list = ["this", "is", "my", "list"]
 	for item in my_list: "<variable> is just variable, can be anything, "
 		print(item)
 
+while loops
+-----------
+Ways to break a while loop, condition is no longer true or a break statement
+
+Example
+	n = 0
+	while n < 10:
+		print(n)
+		n += 1
+	"will return, 1,2,3.."
 
 
 		
