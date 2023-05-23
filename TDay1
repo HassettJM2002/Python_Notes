@@ -217,7 +217,27 @@ Example 2 "String Example"
 	""
 
 
-
+_____________________________________________________________
+there is no differentiable between characeter and string
+	function called "ord" is the decminal conversion to binary number, only works for single character
+	myChar = 'a'
+	ord(myChar) ->97
+	bin(ord(myChar)) -> 0b1100001
+way to change into ord to binary
+	format(ord(myChar),'0>8b') -> b is the binary, is padded out to 8 bits, if there are leading zeros, if it has 8, then it will have 8 bits
+	list(format(ord(myChar),'0>8b')
+	--> [0 1 1 0 0 0 0 1]
+	''.join(list(format(ord(myChar),'0>8b')) -> to join it back
+	--> 01100001
+	
+	int(''join(list(format(ord(myChar),'0>8b')), 2) -> will bring it back to decimal, it's base 2, will change to decimal sequence
+	
+	turn decminal to char
+	
+	chr(97)
+	
+	
+	
 		
     
     
