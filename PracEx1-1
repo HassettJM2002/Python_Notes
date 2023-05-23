@@ -75,3 +75,12 @@ numofelems = len(l)
         invertval = str(255 - int(l[indexpos]))
         newlist.append(invertval)
         return newlist
+        
+        
+charlist=list(format(ord(char),'0>8b'))
+    counter = 0
+    for item in cover:
+        numlist=list(bin(item))
+        numlist[-1] = charlist[counter]
+        ''.join(numlist)
+        counter += 1
