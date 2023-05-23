@@ -160,8 +160,15 @@ example of a function
 		pass "just a place holder"
 		return <a> * <b> "returns the value of the function a*b"
 	print(multiply(5,9)) "returns 5*9 which is 45"
-	
+___________
+|!!Loops!!|
+___________
+for Python3, the loops are for and while, anything with multiple values are iterable, like a list or a tuple
 
+Example of a for loop and an interable list, this code will print each value in the list on different lines
+	my_list = ["this", "is", "my", "list"]
+	for item in my_list: "<variable> is just variable, can be anything, "
+		print(item)
 
 
 
