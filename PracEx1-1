@@ -21,3 +21,6 @@ format(a,'#b') -> 0b101010
 format(a,'b') -> 101010
 0b -> notifys binary literal 
 0x -> notifys hexadecimal
+
+format(a,<type>) the type can be specified, for example, b will output the number in binary
+                  for type, '#b', for example, will cause another form to take place, adds the prefix to the binary
