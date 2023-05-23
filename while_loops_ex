@@ -9,5 +9,6 @@ def guess_number(n):
             print('your guess is too high')
         elif n < 23:
             print('your guess it too low')
+            return -->> will exit immedialtey from the function
         break
 guess_number(23)
