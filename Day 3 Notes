@@ -148,3 +148,17 @@ Example)
       myDict[i] += 1. !!!!!!!!!! IMPORTANT !!!!!!!!! -----> myDict[x] is the key value, 1 is the paired value
     else:
       myDict[i] = 1
+########################################
+Variable length argument
+########################################
+
+Variable length arguements, doesn't know how many arguements, will take them
+Denote by
+    *args
+When referencing the arguements, reference as
+    args
+
+sum: adds iterables together
+
+*args creates a tuple
+
