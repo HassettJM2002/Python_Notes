@@ -145,6 +145,6 @@ Example)
   myDict = {}
   for i in myStr:
     if i in myDict:
-      myDict[i] += 1
+      myDict[i] += 1. !!!!!!!!!! IMPORTANT !!!!!!!!! -----> myDict[x] is the key value, 1 is the paired value
     else:
       myDict[i] = 1
