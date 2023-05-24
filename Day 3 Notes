@@ -31,7 +31,16 @@ Writing to a file
  fp.writelines(lines)
  
 Copying a files contents
+Way 1)
+#################################
 with open('myfile.txt', 'r') as fp0:
   with open('newfile.txt', 'w') as fp1:
     fp1.write(fp0.read())
- 
+################################ 
+Way 2)
+####################################
+with open('myfile.txt', 'r') as fp0:
+  lines = fp0.read()
+with open('newfile.txt', 'w') as fp1:
+  fp1.write(lines)
+########################################
