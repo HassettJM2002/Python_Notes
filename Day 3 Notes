@@ -44,3 +44,51 @@ with open('myfile.txt', 'r') as fp0:
 with open('newfile.txt', 'w') as fp1:
   fp1.write(lines)
 ########################################
+Day 3 Runestone Academy
+1. with open('travel_plans.txt', 'r') as fp:
+    num=len(fp.read())
+    
+2. with open('emotion_words.txt', 'r') as fp:
+    print(fp.readlines())
+    listwords = fp.readlines()
+    num_words = 0
+    for index in range(0,len(listwords)):
+        elementsinlist = listwords[index]
+        newlist = elementsinlist.split()
+        numofwords = len(newlist)
+        num_words += numofwords
+
+3. with open('school_prompt.txt','r') as fp:
+    num_lines = len(fp.readlines())
+
+
+4. with open('school_prompt.txt', 'r') as fp:
+    beginning_chars = fp.read(30)
+
+5. with open('school_prompt.txt', 'r') as fp:
+    list = fp.readlines()
+    print(list)
+    three = []
+    print(len(list))
+    numoflines = len(list)
+    for item in range(0,numoflines):
+        newlist = list[item].split()
+        three.append(newlist[2])
+
+6.
+
+7. with open('travel_plans.txt', 'r') as fp:
+    first_chars = fp.read(33)
+
+8. with open('school_prompt.txt', 'r') as fp:
+    listofwords = fp.read().split()
+    lengthoflist = len(listofwords)
+    p_words = []
+    for item in range(0,lengthoflist):
+        eachword = list(listofwords[item])
+        lenofword = len(eachword)
+        for i in range(0,lenofword):
+            if eachword[i] == 'p':
+                p_words.append(listofwords[item])
+                break
+
