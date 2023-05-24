@@ -102,6 +102,10 @@ charlist=list(format(ord(char),'0>8b'))
     return(print(cover))
 
 decoder!!
+msgbits = [] 'empty list'
+for i in stego:
+  msgbits.append(format(int(item), '0>8b')[-1]) 'creates int of item, formats it into binary, appends to the last bit, to the empty list'
 
-        
+return(chr(int(''.join(msgbits),base=2)))
+     
         
