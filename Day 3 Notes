@@ -162,3 +162,44 @@ sum: adds iterables together
 
 *args creates a tuple
 
+
+###########################################
+Not important functions
+###########################################
+1).
+
+lambda's, mini function, simple function, does simple thing
+
+example of lambda
+
+use key word "lamda"
+assign it to variable
+
+    y = lambda x: x + 100
+
+y becomes a simple function
+
+    print(y(50)) prints 150
+    
+##############################################    
+2).
+
+Lists comprehension
+Hard to read, pythonic way of writing lists
+
+Example
+
+  grades = [60 70 30]
+  failuires = []
+  
+  for i in grades:
+      if grades < 70:
+          failires.append()
+          
+
+  one liner
+  item for item in list conditional 
+  
+  failures = [i for i in grades if i < 70]
+
+
