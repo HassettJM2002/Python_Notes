@@ -1,4 +1,4 @@
-Training Day 3 Python Notes (File IO)
+'''Training Day 3 Python Notes (File IO)'''
 
 More annoying way to open file
   fp.open('myfile.txt')
