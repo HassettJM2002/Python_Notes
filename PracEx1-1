@@ -87,6 +87,7 @@ charlist=list(format(ord(char),'0>8b'))
         
 int(<binary>,'2') gets decimal
 
+stegography code!!
 charlist=list(format(ord(char),'0>8b'))
     counter = 0
     print(charlist)
@@ -100,6 +101,7 @@ charlist=list(format(ord(char),'0>8b'))
         counter += 1
     return(print(cover))
 
-        
+decoder!!
+
         
         
