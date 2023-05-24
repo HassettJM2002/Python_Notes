@@ -1,0 +1,37 @@
+Training Day 3 Python Notes (File IO)
+
+More annoying way to open file
+  fp.open('myfile.txt')
+  fp.close()
+  
+ Easy way, will close it automatically
+  with open('myfile.txt','r') as fp:
+  'with opens it' 'r is read only' 'fp becomes the variable for the string'
+  
+ Reading a file
+  print(fp.read(<numofbytes>))
+  'will read that the file, <num of bytes> will read up to a certain amount of bytes '
+  
+  print(fp.readlines()[index])
+  "readline reads every line as a list"
+  
+  print(fp.readline())
+  "will read the line in sequential order"
+
+Writing to a file
+ with open('myfile.txt', 'w') as fp:
+ fp.write('Example string\n')
+ 
+ cat myfile.txt
+ will output 
+  Example string
+ 
+ write lines
+ lines = ['list', 'list2']
+ fp.writelines(lines)
+ 
+Copying a files contents
+with open('myfile.txt', 'r') as fp0:
+  with open('newfile.txt', 'w') as fp1:
+    fp1.write(fp0.read())
+ 
