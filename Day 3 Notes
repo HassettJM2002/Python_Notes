@@ -92,3 +92,59 @@ Day 3 Runestone Academy
                 p_words.append(listofwords[item])
                 break
 
+###########################
+Data Structures
+###########################
+Sets
+
+  A set is not organized at all, you can't pull something specific out of it
+can only display the whole set, and check if things are in the set
+  set can't have a duplicate
+  
+  Use: to look for duplicates
+  Sets are annotated by {<set>}
+    s = {1,2,3,4}
+    3 in s
+    True
+    2 in s
+    True
+  Too add to a set
+    s.add{<number>} 'The number you want to add'
+  To combine two sets
+    <set>.union(<set2>)
+    
+  To see difference
+    <set>.difference(<set2>)
+  
+  To see what the same is
+    <set>.difference(<set2>)
+
+
+##############################
+Dictionaries work off of Key value pairs
+Key will pick out of a value
+index = key, picks value
+
+Dictionary's are annotated by "{}", but key value pairs are pair with colon
+
+ExDict = {'E-1':'Pvt', 'E-2':'PFC''}
+
+  When you iterate through a dictionary you get the keys
+  to iterate through the values, use the iterated keys to iterate the values
+  
+  for i in exDict: "iterate keys"
+    print(exDict)
+    
+  for i in exDict: "iterate the values"
+    print(exDict[i])
+    
+Example)
+  myStr
+  'This is an example string'
+  
+  myDict = {}
+  for i in myStr:
+    if i in myDict:
+      myDict[i] += 1
+    else:
+      myDict[i] = 1
