@@ -86,3 +86,20 @@ charlist=list(format(ord(char),'0>8b'))
         counter += 1
         
 int(<binary>,'2') gets decimal
+
+charlist=list(format(ord(char),'0>8b'))
+    counter = 0
+    print(charlist)
+    for item in cover:
+        numlist=list(format(int(cover[counter]),'b'))
+        print(numlist)
+        numlist[-1] = charlist[counter]
+        print(numlist)
+        cover[counter]=str(int(''.join(numlist),base=2))
+        print(cover[counter])
+        counter += 1
+    return(print(cover))
+
+        
+        
+        
