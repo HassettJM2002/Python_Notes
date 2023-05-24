@@ -84,3 +84,5 @@ charlist=list(format(ord(char),'0>8b'))
         numlist[-1] = charlist[counter]
         ''.join(numlist)
         counter += 1
+        
+int(<binary>,'2') gets decimal
