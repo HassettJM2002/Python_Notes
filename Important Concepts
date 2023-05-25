@@ -19,4 +19,22 @@ myDict = {}
         break
       fp.write(f'{item}\n')
       
-      
+      price = 0
+ 95     product = (order[0])[0]
+ 96     quantity = (order[0])[1]
+ 97     print(quantity)
+ 98     for item in catalog:
+ 99         if item == product:
+100             print(item, 'key')
+101             print(catalog[item], 'needed: price value')
+102             priceofitem = catalog[item]
+103             price += priceofitem * quantity
+i
+
+
+total = 0
+for product, quantity in order:
+  total += catalog[product] * quantity
+return total
+
+look up enumerate
