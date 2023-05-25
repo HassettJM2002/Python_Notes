@@ -1,0 +1,22 @@
+1)
+passes string to function
+the string is comprised of floats, separated by commas
+
+Ex.
+  str = '12.3,12.1...'
+Goal
+  ['12.3', '12.1']
+  
+  2)
+    Average = Sum of All Numbers / the amountof numbers
+    
+   3)
+    Getting up to a certain number counting backwards
+    
+    example
+    list = [1 2 3 4 5]
+    list[-num:]
+    
+   4) important concept of creating a empty list and appending
+   
+   5) creating a tuple, can you append to a tuple?
