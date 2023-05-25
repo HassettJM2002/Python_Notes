@@ -12,3 +12,11 @@ myDict = {}
       
   tuple() type casting
   data type casting for data structures, tuple(), set(), list()... etc
+  
+  with open(filename, 'w') as fp:
+    for item in lst:
+      if item.lower() == 'stop'"
+        break
+      fp.write(f'{item}\n')
+      
+      
