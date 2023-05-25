@@ -1,0 +1,25 @@
+##################
+Exercise Time    #
+##################
+
+  Useful functions to know
+    abs()
+    <value> *= <multipler>, multiplys the left value by the value on the right
+###################################################################    
+  Problem:
+    Have list, multiply all the numbers together
+    
+  Initial Thought
+    Make for loop and iterate through the loop
+    May be able to use the sum function to solve this problem
+    
+    def grow(arr):
+      1) return sum(arr): incorrect -> summ adds them all together
+      
+      2) total = 1
+         for item in arr
+            total = total * item
+            return total
+
+###################################################################   
+    
