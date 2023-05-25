@@ -8,3 +8,7 @@ myDict = {}
       myDict[i] += 1. !!!!!!!!!! IMPORTANT !!!!!!!!! -----> myDict[x] is the key value, 1 is the paired value
     else:
       myDict[i] = 1
+      
+      
+  tuple() type casting
+  data type casting for data structures, tuple(), set(), list()... etc
