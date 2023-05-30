@@ -19,6 +19,8 @@ Typecasting Data Structures
     useful methods for lists
       .append('x'), appends x to end of the list
       del 'list'[a,b], deletes values a to the value before b
+    Two lists can be added together with +
+      list1 + list0 = [a,b,c,..., a,b,c...]
       
   
   Quick formulas with Data Structures
