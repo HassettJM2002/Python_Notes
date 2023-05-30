@@ -22,10 +22,42 @@ Typecasting Data Structures
     Two lists can be added together with +
       list1 + list0 = [a,b,c,..., a,b,c...]
       
+  Dictionaries
+  myDict = {1:'I', 5:'V', 10:'X'}
+  myDict[50] = 'L' add to a dictionary, 50 being the key and L being the value
+  
+  str = 'blah blah'
+  myDict = {}
+  for i in str:
+    if i not in myDict:
+        myDict[i] += 1
+      else:
+        myDict[i] = 1
+        
+ip1 = '192.168.28.219'
+if int(ip1.split('.')[-1]) in range(0,255):
+  print("True")
+  
+  multicast
+  224.0.0.0 > 239.255.255.255
+  
+  infile = 'infile.txt'
+  outfile = 'outfile.txt'
+  
+  with open(infile, 'r') as fp0:
+    with open(outfile, 'w') as fp1:
+      fp1.write(fp0.read())
+      
+  for i in myStr:
+    if i.isnumeric():
+      print(i)
+    if i.isalpha():
+      print(i)
   
   Quick formulas with Data Structures
     See if their are dupilicates in a set
     To be continued
+    
     
     
 Typecasting Data types
@@ -43,6 +75,22 @@ List comp
     
   List comp
   
+  
+  Review !
+  
+  list(range(0,1024)) -> get a list of the range of well known ports
+  input() -> input from a user
+  format() / f'' -> '{} {} {} @nsa.gov'.format('string','string','string')
+  
+  list of rocky.spit.wilson@usmc.mil
+  parts = email.split('@')
+  parts = '.'.join(parts)
+  parts = parts.split('.')
+  parts[:-1]
+  
+
+
+
   String 
   
 Useful formulas / functions 
@@ -62,3 +110,7 @@ str'.replace('replace x', 'with y')	replaces x with y
 list'.index('x')	x' is what you are looking for, will return index position
 reversed('list') will reverse the order of the list
 .reverse() changes the list
+
+for counter,item in enumerate(lines0)
+  if item != lines1[counter]:
+    diffs.append(counter)
