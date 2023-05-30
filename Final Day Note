@@ -53,6 +53,8 @@ if int(ip1.split('.')[-1]) in range(0,255):
       print(i)
     if i.isalpha():
       print(i)
+    if i.isalnum():
+      print(i)
   
   Quick formulas with Data Structures
     See if their are dupilicates in a set
