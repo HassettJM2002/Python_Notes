@@ -1,1 +1,94 @@
+Wants string and the words reversed
 
+words = sentence.split()
+words_reversed = reversed(words)
+return ' '.join(words_reversed)
+
+q2)
+return '{:,}'.format(n), will add a comma to an number 
+
+q3)
+combined = lst0 + lst1
+new_list = sorted(combined)
+newlist = reversed(newlist)
+return list(new_list)
+
+q4)
+  avg = sum(s1 + s2 + s3) / 3.0
+  if avg > 50.0:
+    return "GO"
+  else:
+    return "NOGO"
+   
+q5)
+multiples = []
+for i in range(0,limit+1)
+  if (i%integer == 0) and (i%2 == 0):
+    multiples.append(i)
+return multiples
+
+list comp
+return [i for i in range(0,limit+1) if (i%integer ==0) and (i%2 == 0)]
+
+q6)
+diffs = []
+with open(f0) as fp0:
+  with open(f1) as fp1:
+    lines0 = fp0.readlines() [read lines will put the lines in a list] -> [line1, line2,...]
+    lines1 = fp1.readlines()
+    counter = 0
+    for i in lines0:
+      if i!= lines1[counter]
+        diffs.append(counter)
+      counter += 1
+return diffs
+
+with open(f0) as fp0:
+  with open(f1) as fp1:
+    lines0 = fp0.readlines()
+    lines1 = fp1.readlines()
+    
+    for c,i in enumerate(lines0): c for counter i for item
+      if i!= lines1[c]:
+        diffs.append(c)
+return diffs
+
+q7)
+seen = []
+for i in lst:
+  if i in seen:
+    return i
+  else:
+    seen.append(i)
+
+more efficient
+seen = set()
+for i in lst
+  if i in seen:
+    return i
+  else:
+    seen.add(i)
+    
+q8)
+splitted = string.split()
+minlen = len(splitted[0])
+for i in splitted:
+  if len(i) < minlen:
+    minlen = len(word)
+return minlen
+
+q9)
+nums = []
+for i in strng:
+  if i.isnumeric():
+    nums.append(i)
+return chr(int(''.join(nums)))
+
+q10)
+if numbers are consecutive
+ 
+ for counter,item in enumerate(arr):
+  if arr[counter+1] != item+1
+    return arr[counter+1]
+  return None
+  
