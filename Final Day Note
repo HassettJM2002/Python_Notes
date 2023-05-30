@@ -90,6 +90,13 @@ List comp
   parts = parts.split('.')
   parts[:-1]
   
+  fileio
+  with open('filename', 'r(ead)/w(rite)') as fp:
+    lines = fp.readlines() ##reads entire file as a list, each element is a line as a string
+    conetent = fp.read() ##reads entire file as a bigg ass string
+    writelines() ## requires list
+    write() ## requires string
+  
 
 
 
