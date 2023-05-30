@@ -10,5 +10,35 @@ Typecasting Data Structures
     Tuples {} -> order cannot change and unchangeable
     Dictionaries {'key':'value;} -> uses key value pairs, dict[key] = value
 
+  Lists:
+    index notated, first element starts at 0
+      first element = list[0]
+      last element = list[-1]
+    replace value at index pos with another value
+      a['index'] = 'new value'
+    useful methods for lists
+      .append('x'), appends x to end of the list
+      del 'list'[a,b], deletes values a to the value before b
+      
+  
   Quick formulas with Data Structures
     See if their are dupilicates in a set
+    To be continued
+    
+    
+Typecasting Data types
+  int()
+  float()
+  str()
+  bool()
+
+List comp
+  Example) Find all the even numbers in a list and make it odd
+    exlist = [1 2 3 4 5]
+    newlist = [(item + 1) for item in exlist if item % 2 == 0]
+               output         iterable              conditional
+    returns -> [3 5]
+    
+  List comp
+  
+  String 
