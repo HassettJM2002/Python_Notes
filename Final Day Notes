@@ -1,1 +1,14 @@
+Typecasting Data Structures
+  Can change one form of data structure to another form of a data strucuture
+  
+  Example 1)
+  tuple([a,b,c..]) will type cast that list to a tuple
+  
+  Types of Data Structures and they're uses
+    Sets () -> no reoccuring values, random, cannot reference data
+    List [] -> iterable object, can use methods and functions for iterable objects
+    Tuples {} -> order cannot change and unchangeable
+    Dictionaries {'key':'value;} -> uses key value pairs, dict[key] = value
 
+  Quick formulas with Data Structures
+    See if their are dupilicates in a set
