@@ -50,11 +50,13 @@ min([len(item) for item in 's'.split()])	Find the len of the smallest word in a 
 [(2 * a[item]) for item in range(0,len(a))]	Double all the numbers in a list
 sqrt()	Takes square root of function
 ord() / char()	ord makes it a ordinal number, chr() is the inverse
-char'.isupper()	
-.upper / .lower	
+char'.isupper()	will find if the string has capital or lowercase
+.upper / .lower	will make string upper or lower case
 .isnumeric()	sees if the number is numeric or not
 sort()	changes the list and sorts in small to large
 sorted(iterable, reverse=True/False)	doesn't change list, but sorts small to big, has output
 .format(arg1, arg2...)	
 str'.replace('replace x', 'with y')	replaces x with y
 list'.index('x')	x' is what you are looking for, will return index position
+reversed('list') will reverse the order of the list
+.reverse() changes the list
